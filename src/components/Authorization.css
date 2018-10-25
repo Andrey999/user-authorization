@@ -1,0 +1,36 @@
+.wrap-form {
+    width: 40%;
+    margin: 100px auto;
+    border: 5px solid #000;
+    border-radius: 15px;
+}
+
+.wrap-form input {
+    display: block;
+    border: transparent;
+    padding: 15px 0;
+    font-size: 16px;
+    outline: none;
+    margin: 40px auto;
+    border-bottom: 1px solid #cce;
+}
+
+.wrap-form button {
+    padding: 18px 50px;
+    outline: none;
+    border: 1px solid #111;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #000;
+    margin: 40px 0 40px;
+    cursor: pointer;
+    transition: ease .8s;
+    border-radius: 10px;
+
+}
+
+.wrap-form button:hover {
+    color: #ccc;
+    opacity: .9;
+}
